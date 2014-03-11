@@ -1,0 +1,281 @@
+; Created by H.Santuz, March 2014 (adapted from DAPC)
+
+; To paste it in "merged.rtp" from the Charmm36 forcefield in Gromacs format
+;    Source : http://mackerell.umaryland.edu/CHARMM_ff_params.html
+; Based on the charmm36-jan2014.ff.tgz
+
+; DUPC = DLiPC = 1,2-dilinoleoyl-sn-glycero-3-phosphocholine = C18:2, C18:2
+
+[ DUPC ]
+  [ atoms ]
+        N   NTL   -0.600  0
+      C12  CTL2   -0.100  1
+     H12A    HL    0.250  2
+     H12B    HL    0.250  3
+      C13  CTL5   -0.350  4
+     H13A    HL    0.250  5
+     H13B    HL    0.250  6
+     H13C    HL    0.250  7
+      C14  CTL5   -0.350  8
+     H14A    HL    0.250  9
+     H14B    HL    0.250 10
+     H14C    HL    0.250 11
+      C15  CTL5   -0.350 12
+     H15A    HL    0.250 13
+     H15B    HL    0.250 14
+     H15C    HL    0.250 15
+      C11  CTL2   -0.080 16
+     H11A  HAL2    0.090 17
+     H11B  HAL2    0.090 18
+        P    PL    1.500 19
+      O13   O2L   -0.780 20
+      O14   O2L   -0.780 21
+      O12  OSLP   -0.570 22
+      O11  OSLP   -0.570 23
+       C1  CTL2   -0.080 24
+       HA  HAL2    0.090 25
+       HB  HAL2    0.090 26
+       C2  CTL1    0.170 27
+       HS  HAL1    0.090 28
+      O21   OSL   -0.490 29
+      C21    CL    0.900 30
+      O22   OBL   -0.630 31
+      C22  CTL2   -0.220 32
+      H2R  HAL2    0.090 33
+      H2S  HAL2    0.090 34
+       C3  CTL2    0.080 35
+       HX  HAL2    0.090 36
+       HY  HAL2    0.090 37
+      O31   OSL   -0.490 38
+      C31    CL    0.900 39
+      O32   OBL   -0.630 40
+      C32  CTL2   -0.220 41
+      H2X  HAL2    0.090 42
+      H2Y  HAL2    0.090 43
+      C23  CTL2   -0.180 44
+      H3R  HAL2    0.090 45
+      H3S  HAL2    0.090 46
+      C24  CTL2   -0.180 47
+      H4R  HAL2    0.090 48
+      H4S  HAL2    0.090 49
+      C25  CTL2   -0.180 50
+      H5R  HAL2    0.090 51
+      H5S  HAL2    0.090 52
+      C26  CTL2   -0.180 53
+      H6R  HAL2    0.090 54
+      H6S  HAL2    0.090 55
+      C27  CTL2   -0.180 56
+      H7R  HAL2    0.090 57
+      H7S  HAL2    0.090 58
+      C28  CTL2   -0.180 59
+      H8R  HAL2    0.090 60
+      H8S  HAL2    0.090 61
+      C29  CEL1   -0.150 62
+      H9R  HEL1    0.150 63
+     C210  CEL1   -0.150 64
+     H10R  HEL1    0.150 65
+     C211  CTL2   -0.180 66
+     H11R  HAL2    0.090 67
+     H11S  HAL2    0.090 68
+     C212  CEL1   -0.150 69
+     H12R  HEL1    0.150 70
+     C213  CEL1   -0.150 71
+     H13R  HEL1    0.150 72
+     C214  CTL2   -0.180 73
+     H14R  HAL2    0.090 74
+     H14S  HAL2    0.090 75
+     C215  CTL2   -0.180 76
+     H15R  HAL2    0.090 77
+     H15S  HAL2    0.090 78
+     C216  CTL2   -0.180 79
+     H16R  HAL2    0.090 80
+     H16S  HAL2    0.090 81
+     C217  CTL2   -0.180 82
+     H17R  HAL2    0.090 83
+     H17S  HAL2    0.090 84
+     C218  CTL3   -0.270 85
+     H18R  HAL3    0.090 86
+     H18S  HAL3    0.090 87
+     H18T  HAL3    0.090 88
+      C33  CTL2   -0.180 89
+      H3X  HAL2    0.090 90
+      H3Y  HAL2    0.090 91
+      C34  CTL2   -0.180 92
+      H4X  HAL2    0.090 93
+      H4Y  HAL2    0.090 94
+      C35  CTL2   -0.180 95
+      H5X  HAL2    0.090 96
+      H5Y  HAL2    0.090 97
+      C36  CTL2   -0.180 98
+      H6X  HAL2    0.090 99
+      H6Y  HAL2    0.090 100
+      C37  CTL2   -0.180 101
+      H7X  HAL2    0.090 102
+      H7Y  HAL2    0.090 103
+      C38  CTL2   -0.180 104
+      H8X  HAL2    0.090 105
+      H8Y  HAL2    0.090 106
+      C39  CEL1   -0.150 107
+      H9X  HEL1    0.150 108
+     C310  CEL1   -0.150 109
+     H10X  HEL1    0.150 110
+     C311  CTL2   -0.180 111
+     H11X  HAL2    0.090 112
+     H11Y  HAL2    0.090 113
+     C312  CEL1   -0.150 114
+     H12X  HEL1    0.150 115
+     C313  CEL1   -0.150 116
+     H13X  HEL1    0.150 117
+     C314  CTL2   -0.180 118
+     H14X  HAL2    0.090 119
+     H14Y  HAL2    0.090 120
+     C315  CTL2   -0.180 121
+     H15X  HAL2    0.090 122
+     H15Y  HAL2    0.090 123
+     C316  CTL2   -0.180 124
+     H16X  HAL2    0.090 125
+     H16Y  HAL2    0.090 126
+     C317  CTL2   -0.180 127
+     H17X  HAL2    0.090 128
+     H17Y  HAL2    0.090 129
+     C318  CTL3   -0.270 130
+     H18X  HAL3    0.090 131
+     H18Y  HAL3    0.090 132
+     H18Z  HAL3    0.090 133
+  [ bonds ]
+        N   C13
+        N   C14
+        N   C15
+      C13  H13A
+      C13  H13B
+      C13  H13C
+      C14  H14A
+      C14  H14B
+      C14  H14C
+      C15  H15A
+      C15  H15B
+      C15  H15C
+        N   C12
+      C12  H12A
+      C12  H12B
+      C12   C11
+      C11  H11A
+      C11  H11B
+      C11   O12
+      O11    C1
+      O12     P
+        P   O11
+        P   O13
+        P   O14
+       C1    HA
+       C1    HB
+       C1    C2
+       C2    HS
+       C2    C3
+       C2   O21
+       C3    HX
+       C3    HY
+       C3   O31
+      C21   O21
+      C21   C22
+      C22   C23
+      C22   H2R
+      C22   H2S
+      C23   C24
+      C23   H3R
+      C23   H3S
+      C24   C25
+      C24   H4R
+      C24   H4S
+      C25   H5R
+      C25   H5S
+      C26   C27
+      C26   H6R
+      C26   H6S
+      C27   C28
+      C27   H7R
+      C27   H7S
+      C28   H8R
+      C28   H8S
+      C29  C210
+      C29   H9R
+     C210  C211
+     C210  H10R
+     C211  H11R
+     C211  H11S
+     C212  C213
+     C212  H12R
+     C213  C214
+     C213  H13R
+     C214  H14R
+     C214  H14S
+     C215  C216
+     C215  H15R
+     C215  H15S
+     C216  C217
+     C216  H16R
+     C216  H16S
+     C217  C218
+     C217  H17R
+     C217  H17S
+     C218  H18T
+     C218  H18R
+     C218  H18S
+      C31   O31
+      C31   C32
+      C32   C33
+      C32   H2X
+      C32   H2Y
+      C33   C34
+      C33   H3X
+      C33   H3Y
+      C34   C35
+      C34   H4X
+      C34   H4Y
+      C35   H5X
+      C35   H5Y
+      C36   C37
+      C36   H6X
+      C36   H6Y
+      C37   C38
+      C37   H7X
+      C37   H7Y
+      C38   H8X
+      C38   H8Y
+      C39  C310
+      C39   H9X
+     C310  C311
+     C310  H10X
+     C311  H11X
+     C311  H11Y
+     C312  C313
+     C312  H12X
+     C313  C314
+     C313  H13X
+     C314  H14X
+     C314  H14Y
+     C315  C316
+     C315  H15X
+     C315  H15Y
+     C316  C317
+     C316  H16X
+     C316  H16Y
+     C317  C318
+     C317  H17X
+     C317  H17Y
+     C318  H18Z
+     C318  H18X
+     C318  H18Y
+      C21   O22
+      C25   C26
+      C28   C29
+     C211  C212
+     C214  C215
+      C31   O32
+      C35   C36
+      C38   C39
+     C311  C312
+     C314  C315
+  [ impropers ]
+      C21   O21   C22   O22
+      C31   O31   C32   O32
